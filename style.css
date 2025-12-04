@@ -46,7 +46,7 @@ nav .menu li a {
 
 
 .home {
-    height: 90vh;
+    height: 80vh;
     background: linear-gradient(to right, #4CAF50, #3c8dff);
     color: white;
     text-align: center;
@@ -75,7 +75,6 @@ nav .menu li a {
     animation: pop 2s infinite;
 }
 
-
 .about {
     padding: 60px;
     background: white;
@@ -101,25 +100,6 @@ nav .menu li a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     animation: fadeInUp 1.5s ease;
-}
-
-/* GALLERY */
-.gallery {
-    padding: 60px;
-    background: #fff;
-}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.img-box {
-    height: 200px;
-    background: #ccc;
-    border-radius: 10px;
-    animation: zoom 4s infinite ease-in-out;
 }
 
 
